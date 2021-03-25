@@ -1,1 +1,1 @@
-# openimis_node_openhim_coverageeligibility_mediator
+# openimis_node_openhim_coverageEligibility_mediator
