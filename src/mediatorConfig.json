@@ -1,0 +1,36 @@
+
+{
+    "urn": "Fhir 4 CoverageEligibility mediator",
+    "version": "1.0.0",
+    "name": "Fhir 4 CoverageEligibility mediator",
+    "description": "Fhir 4 CoverageEligibility mediator",
+    "defaultChannelConfig": [
+      {
+        "name": "Fhir 4 CoverageEligibility mediator",
+        "urlPattern": "^CoverageEligibility",
+        "routes": [
+          {
+            "name": "CoverageEligibility route",
+            "host": "localhost",
+            "path": "/",
+            "port": "3001",
+            "primary": true,
+            "type": "http"
+          }
+        ],
+        "allow": ["admin"],
+        "methods": ["GET", "POST","PUT","DELETE"],
+        "type": "http"
+      }
+    ],
+    "endpoints": [
+      {
+        "name": "CoverageEligibility endpoint",
+        "host": "localhost",
+        "path": "/",
+        "port": "3001",
+        "primary": true,
+        "type": "http"
+      }
+    ]
+  }
