@@ -13,9 +13,6 @@ OPENHIM_USERNAME=openhim username
 OPENHIM_PASSWORD=openhim password
 MEDIATOR_URN=Mediator Name
 OPENHIM_REGISTER=true
-OPENIMIS_USER=openIMIS user
-OPENIMIS_PASSWORD=openIMIS user password
-OPENIMIS_URL=http://xyz/api/api_fhir_r4/ - openIMIS link to fhir 4 resource
 SOSYS_URL=Sosys server link
 ```
 ### Docker
